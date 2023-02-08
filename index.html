@@ -11,13 +11,26 @@
 
 <body>
    <div class="panel">
-      <p class="name">Здесь будет имя</p>
-      <button type="submit" class="btn">Получить рандомное имя</button>
+      <p class="name">Генератор имён :3</p>
+      <button type="submit" class="btn">Генерировать</button>
    </div>
    <div class="settingsPanel">
       <p class="setTitile">Настройки</p>
-      <input type="number" id="setMaxLength" placeholder="макс. длинна">
-      <input type="text" id="setFirstLetter" placeholder="первая буква">
+      <form class="input-form">
+         <input class='input-s' type="number" id="setMaxLength" placeholder="макс. длинна">
+         <input type="reset" value="x" class="input-reset">
+      </form>
+
+      <form class="input-form">
+         <input class='input-s' type="text" id="setFirstLetter" placeholder="первая буква">
+         <input type="reset" value="x" class="input-reset">
+      </form>
+
+      <form class="input-form">
+         <input class='input-s' type="text" id="" placeholder="ключевые буквы">
+         <input type="reset" value="x" class="input-reset">
+      </form>
+
    </div>
 </body>
 <script src="main.js"></script>
